@@ -3,7 +3,7 @@
 - Known packer sections (.upx, .themida, .vmp, etc)
 - RWX sections (Read+write+execute - common in packed code)
 - TLS entries (used for early anti-debugging)
-- Direct anti-debug APIs: `IsDebuggerPresent`, `CheckRemoteDebuggerPresent`
+- Direct anti-debug APIs: `IsDebuggerPresent`,   `CheckRemoteDebuggerPresent`
 - Process information APIs: `NtQueryInformationProcess`, `ZwQueryInformationProcess`
 - Exception-based anti-debugging: `SetUnhandledExceptionFilter`
 
